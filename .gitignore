@@ -5,3 +5,4 @@ fp-info-cache
 jlcpcb/gerber
 jlcpcb/assembly
 jlcpcb/*.zip
+*.step
