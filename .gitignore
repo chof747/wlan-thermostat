@@ -2,7 +2,13 @@
 *-backups
 fp-info-cache
 #auto_saved_files#
-jlcpcb/gerber
-jlcpcb/assembly
-jlcpcb/*.zip
+*/jlcpcb/gerber
+*/jlcpcb/assembly
+*/production
 *.step
+_autosave*
+back-control/production/bom.csv
+back-control/production/designators.csv
+back-control/production/gerber.zip
+back-control/production/netlist.ipc
+back-control/production/positions.csv
