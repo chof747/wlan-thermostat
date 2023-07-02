@@ -6,8 +6,8 @@
 
   (title_block
     (title "Thermostate Front Module")
-    (date "2023-04-30")
-    (rev "0.5")
+    (date "2023-07-01")
+    (rev "1.1")
     (company "chof.org")
   )
 
@@ -1079,18 +1079,19 @@
   (junction (at 45.72 161.29) (diameter 0) (color 0 0 0 0)
     (uuid d7d9ec47-7469-4d88-a053-e7bba1e0e1cf)
   )
+  (junction (at 71.12 43.18) (diameter 0) (color 0 0 0 0)
+    (uuid e236a10e-0b16-4b8b-9fca-4ae5dfa9568f)
+  )
   (junction (at 82.55 158.75) (diameter 0) (color 0 0 0 0)
     (uuid e7f660a5-5b83-42ca-b67d-2a5c03e2a04a)
   )
 
   (no_connect (at 36.83 53.34) (uuid 07d7fe4c-bb4c-4667-b37e-9ac3ab7791ab))
-  (no_connect (at 67.31 68.58) (uuid 18d0d8f5-6381-4316-9086-fb35f6673819))
   (no_connect (at 237.49 123.19) (uuid 34ec0644-0adc-4da6-be6f-f80d8cb014a6))
   (no_connect (at 36.83 71.12) (uuid 52ab4ca7-8a2e-486a-bc16-99cf8f1026a3))
   (no_connect (at 36.83 58.42) (uuid 6f821de3-6835-4054-9505-17e636264f38))
   (no_connect (at 36.83 68.58) (uuid 765e1164-4dcd-499d-92aa-f007c43f5085))
   (no_connect (at 237.49 148.59) (uuid 9c073e22-6b2d-45c8-8447-c0ad09d2b862))
-  (no_connect (at 67.31 48.26) (uuid d4dc1a39-f988-4119-85a1-5d1a7401fc96))
   (no_connect (at 36.83 63.5) (uuid e496e1f0-bd2a-4494-8ef6-9dfc02913501))
   (no_connect (at 36.83 66.04) (uuid e7b65865-c6a8-4803-8ca0-94c3436ca443))
   (no_connect (at 36.83 60.96) (uuid f28f9541-a05e-46fe-ad25-2e90a143056e))
@@ -1098,6 +1099,10 @@
   (wire (pts (xy 259.08 49.53) (xy 255.27 49.53))
     (stroke (width 0) (type default))
     (uuid 01af5e3d-8ced-4515-9ddf-0d64cca55d32)
+  )
+  (wire (pts (xy 67.31 48.26) (xy 92.71 48.26))
+    (stroke (width 0) (type default))
+    (uuid 049a0bdc-61fd-40bd-9b0d-2c2042fc700f)
   )
   (wire (pts (xy 19.05 31.75) (xy 19.05 29.21))
     (stroke (width 0) (type default))
@@ -1155,7 +1160,7 @@
     (stroke (width 0) (type default))
     (uuid 1f479ebf-17d1-40ac-bea9-36a91855a271)
   )
-  (wire (pts (xy 67.31 43.18) (xy 72.39 43.18))
+  (wire (pts (xy 67.31 43.18) (xy 71.12 43.18))
     (stroke (width 0) (type default))
     (uuid 220e3653-a028-45c1-a69c-0975cdda7009)
   )
@@ -1199,6 +1204,10 @@
     (stroke (width 0) (type default))
     (uuid 35553b27-0c5c-4af2-a1cb-9ca146435671)
   )
+  (wire (pts (xy 71.12 43.18) (xy 72.39 43.18))
+    (stroke (width 0) (type default))
+    (uuid 358b9dd9-8a03-48aa-9d21-dee8209940af)
+  )
   (wire (pts (xy 156.21 44.45) (xy 158.75 44.45))
     (stroke (width 0) (type default))
     (uuid 3a9fdd99-cfdf-4f98-9389-8e8d8bbb7c6f)
@@ -1210,6 +1219,10 @@
   (wire (pts (xy 212.09 49.53) (xy 217.17 49.53))
     (stroke (width 0) (type default))
     (uuid 3bcbc2a9-c6ff-4d5a-b314-01dc5365f828)
+  )
+  (wire (pts (xy 67.31 68.58) (xy 72.39 68.58))
+    (stroke (width 0) (type default))
+    (uuid 3d89fa30-a157-4a9d-bf6d-0ff66deacb82)
   )
   (wire (pts (xy 255.27 46.99) (xy 259.08 46.99))
     (stroke (width 0) (type default))
@@ -1223,13 +1236,13 @@
     (stroke (width 0) (type default))
     (uuid 42d53108-7cc6-4d99-a36e-86a3f45a73e1)
   )
+  (wire (pts (xy 92.71 48.26) (xy 92.71 39.37))
+    (stroke (width 0) (type default))
+    (uuid 463c488b-656c-45c2-82ff-9822f2c4c46f)
+  )
   (wire (pts (xy 114.3 166.37) (xy 123.19 166.37))
     (stroke (width 0) (type default))
     (uuid 46ef026a-e271-47d6-ac0d-7466914c8081)
-  )
-  (wire (pts (xy 67.31 66.04) (xy 72.39 66.04))
-    (stroke (width 0) (type default))
-    (uuid 4886587d-d9b4-4f5e-b215-c4f7e4e89ea0)
   )
   (wire (pts (xy 143.51 49.53) (xy 147.32 49.53))
     (stroke (width 0) (type default))
@@ -1258,6 +1271,10 @@
   (wire (pts (xy 54.61 99.06) (xy 69.85 99.06))
     (stroke (width 0) (type default))
     (uuid 541a932f-0409-4e05-b657-203fe5899d40)
+  )
+  (wire (pts (xy 92.71 31.75) (xy 92.71 29.21))
+    (stroke (width 0) (type default))
+    (uuid 572f9f5f-d341-46a4-80c9-1cccbb33018c)
   )
   (wire (pts (xy 54.61 111.76) (xy 54.61 114.3))
     (stroke (width 0) (type default))
@@ -1335,6 +1352,10 @@
     (stroke (width 0) (type default))
     (uuid 79088ec1-306e-47dc-81b4-c1b010d6d449)
   )
+  (wire (pts (xy 69.85 78.74) (xy 69.85 81.28))
+    (stroke (width 0) (type default))
+    (uuid 7a50c16b-83bc-422e-9997-e5b6889a216e)
+  )
   (wire (pts (xy 67.31 53.34) (xy 72.39 53.34))
     (stroke (width 0) (type default))
     (uuid 7b73025a-b289-42da-98eb-3061b81d0854)
@@ -1411,6 +1432,10 @@
     (stroke (width 0) (type default))
     (uuid ac928b77-43c9-48cc-90c3-19240f15c773)
   )
+  (wire (pts (xy 71.12 39.37) (xy 71.12 43.18))
+    (stroke (width 0) (type default))
+    (uuid af6806b6-e549-419e-8e75-96387a08b8ae)
+  )
   (wire (pts (xy 113.03 49.53) (xy 113.03 62.23))
     (stroke (width 0) (type default))
     (uuid b2a47ef3-712c-425e-8e5e-93a133d0b6e7)
@@ -1475,9 +1500,17 @@
     (stroke (width 0) (type default))
     (uuid d1395466-9c43-4895-9ccd-9de437314935)
   )
+  (wire (pts (xy 69.85 66.04) (xy 69.85 71.12))
+    (stroke (width 0) (type default))
+    (uuid d2d3e586-6b41-41e2-abb6-3944bc90e342)
+  )
   (wire (pts (xy 168.91 31.75) (xy 156.21 31.75))
     (stroke (width 0) (type default))
     (uuid d901428f-ddf9-481f-872b-0d04b6c29af2)
+  )
+  (wire (pts (xy 67.31 66.04) (xy 69.85 66.04))
+    (stroke (width 0) (type default))
+    (uuid d96bd87a-7861-49b2-a769-3ce7199e2875)
   )
   (wire (pts (xy 38.1 119.38) (xy 39.37 119.38))
     (stroke (width 0) (type default))
@@ -1518,6 +1551,10 @@
   (wire (pts (xy 67.31 58.42) (xy 72.39 58.42))
     (stroke (width 0) (type default))
     (uuid f6604b4c-f8d3-4f9d-a7cb-dc2310c8e4b6)
+  )
+  (wire (pts (xy 71.12 31.75) (xy 71.12 29.21))
+    (stroke (width 0) (type default))
+    (uuid fbf49f64-d437-48f8-9ac6-7b3bf0dbcc28)
   )
   (wire (pts (xy 209.55 116.84) (xy 201.93 116.84))
     (stroke (width 0) (type default))
@@ -1661,6 +1698,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "GPIO16_RELAY" (shape output) (at 72.39 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 611d3196-6841-4c08-9445-6eb8ea991cfc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 88.782 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "GPIO3_RX" (shape input) (at 72.39 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 70718c85-bed3-4ece-95e9-ac8aaaa3f116)
@@ -1693,13 +1737,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a64f3b17-ee26-4db7-b1d4-8b75633b9230)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.4753 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GPIO15_RELAY" (shape output) (at 72.39 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a6cc1295-0a88-4d28-94a3-4cab974d7063)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 88.782 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1738,7 +1775,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GPIO15_RELAY" (shape input) (at 255.27 46.99 180) (fields_autoplaced)
+  (global_label "GPIO16_RELAY" (shape input) (at 255.27 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d9c51acf-9d7e-4c5d-9c84-ce71150120b1)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 238.878 46.99 0)
@@ -1780,9 +1817,35 @@
     (pin "3" (uuid 65f0a7bb-0be1-42c0-8d6d-e8d43979dae8))
     (pin "4" (uuid e0e00af7-311f-4234-882d-81aae9a36292))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 92.71 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 076342c9-9a85-43fe-944a-07abe5baf620)
+    (property "Reference" "R11" (at 95.25 34.925 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 95.25 37.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 90.932 35.56 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 67ce127c-d6a7-4edb-826c-8841eeb54031))
+    (pin "2" (uuid b0f14b77-95d8-4290-8531-6183fffc42be))
+    (instances
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1815,7 +1878,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "J1") (unit 1)
         )
@@ -1845,7 +1908,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR09") (unit 1)
         )
@@ -1871,7 +1934,7 @@
     (pin "1" (uuid f7291443-8b32-4de7-a84b-1360ea328a1e))
     (pin "2" (uuid 87605c12-6dfd-4336-9386-1dd35495fd41))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R10") (unit 1)
         )
@@ -1896,7 +1959,7 @@
     )
     (pin "1" (uuid c41d617f-1f92-4a5a-a45c-881c520f1878))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#FLG01") (unit 1)
         )
@@ -1921,7 +1984,7 @@
     )
     (pin "1" (uuid c2a3a036-56be-4c50-a9dc-bf5d145fc03f))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#FLG03") (unit 1)
         )
@@ -1946,7 +2009,7 @@
     )
     (pin "1" (uuid 7cc85b25-cbc8-45cc-83e4-61fab36c2b53))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#FLG02") (unit 1)
         )
@@ -1971,7 +2034,7 @@
     )
     (pin "1" (uuid 4b098a20-2372-4286-b4db-d35b71ee69e8))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR016") (unit 1)
         )
@@ -1996,7 +2059,7 @@
     )
     (pin "1" (uuid 8ede73db-9a32-4717-ade3-4b31307a3cb8))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR01") (unit 1)
         )
@@ -2022,9 +2085,34 @@
     (pin "1" (uuid 4913992a-f1c4-41b4-9aed-26ec6537819b))
     (pin "2" (uuid b0042a81-4266-4528-ba0f-e7ebdb7e1875))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 92.71 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3e913866-05ef-47cf-874e-fd16d15000a6)
+    (property "Reference" "#PWR021" (at 92.71 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 92.71 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 92.71 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 92.71 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 930400e9-5235-4d3d-852e-d55e9c8f62b8))
+    (instances
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2047,7 +2135,7 @@
     )
     (pin "1" (uuid 59b253b4-2319-4ff9-aa88-5e9fde89b93b))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR013") (unit 1)
         )
@@ -2072,7 +2160,7 @@
     )
     (pin "1" (uuid a12bee83-02e7-4715-9de8-fbb7861bb11e))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR010") (unit 1)
         )
@@ -2103,7 +2191,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R2") (unit 1)
         )
@@ -2127,7 +2215,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "H1") (unit 1)
         )
@@ -2173,7 +2261,7 @@
     (pin "8" (uuid 4f3bc182-d1b9-49a7-9cd9-0d906860afd2))
     (pin "9" (uuid fbabdd2a-0001-4cf2-abef-b770d00e5203))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "U1") (unit 1)
         )
@@ -2203,7 +2291,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR019") (unit 1)
         )
@@ -2228,7 +2316,7 @@
     )
     (pin "1" (uuid ca4af8ba-a9cc-48fa-9456-464de8d13357))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR018") (unit 1)
         )
@@ -2264,7 +2352,7 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R5") (unit 1)
         )
@@ -2294,7 +2382,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR015") (unit 1)
         )
@@ -2359,7 +2447,7 @@
           (reference "SW4") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "SW2") (unit 1)
         )
@@ -2390,7 +2478,7 @@
           (reference "JP1") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "JP1") (unit 1)
         )
@@ -2426,7 +2514,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R4") (unit 1)
         )
@@ -2452,7 +2540,7 @@
     (pin "1" (uuid 8725a889-9ec9-4c30-8b70-13a2729a9c50))
     (pin "2" (uuid 1d316aa0-b8c3-4544-9a62-6e6d63bfe285))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R7") (unit 1)
         )
@@ -2487,7 +2575,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR04") (unit 1)
         )
@@ -2513,7 +2601,7 @@
     (pin "1" (uuid 258796cd-7a85-48b0-9824-28e7068cb9d8))
     (pin "2" (uuid 754487ba-abf2-4680-9913-72b2e6c21695))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "C2") (unit 1)
         )
@@ -2543,7 +2631,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR07") (unit 1)
         )
@@ -2568,7 +2656,7 @@
     )
     (pin "1" (uuid 44e6fc3f-21ca-400a-a36c-e71071b1f6d6))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR06") (unit 1)
         )
@@ -2598,7 +2686,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR02") (unit 1)
         )
@@ -2657,7 +2745,7 @@
     (pin "4" (uuid c4aeffd6-de96-4701-9ecf-de6b04832b63))
     (pin "5" (uuid 97bbde88-fbac-4f70-9b2a-e4d649d69205))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "IC1") (unit 1)
         )
@@ -2692,7 +2780,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR03") (unit 1)
         )
@@ -2717,7 +2805,7 @@
     )
     (pin "1" (uuid c915793c-027b-4d37-b5c5-4fd9e8e686b8))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR017") (unit 1)
         )
@@ -2743,7 +2831,7 @@
     (pin "1" (uuid 230110ea-4228-47c5-a5db-6a1b0a679ad5))
     (pin "2" (uuid b1852d8b-d94a-425f-a88f-c8934d8300a5))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "SW1") (unit 1)
         )
@@ -2771,7 +2859,7 @@
     (pin "3" (uuid 5dd2b63b-2956-464b-ad39-dacef9cb6e91))
     (pin "4" (uuid 178b79cb-822b-469f-831e-3fcb17e73ea9))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "U2") (unit 1)
         )
@@ -2797,7 +2885,7 @@
     (pin "1" (uuid 64d38224-a194-4d0b-8392-7737c91989f0))
     (pin "2" (uuid 3c333f85-90a1-4dca-b8a5-df662dc3c2a3))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R8") (unit 1)
         )
@@ -2823,7 +2911,7 @@
     (pin "1" (uuid 74bbf949-2184-440d-844b-04406a8ae50d))
     (pin "2" (uuid 572c2365-9fa2-40d9-a273-9509d427a121))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R9") (unit 1)
         )
@@ -2854,7 +2942,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R1") (unit 1)
         )
@@ -2880,9 +2968,39 @@
     (pin "1" (uuid e0583591-81db-45c8-883d-a1282472d06c))
     (pin "2" (uuid dc7b2110-3061-4524-b5ff-27bc51b6c318))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 69.85 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c29ca277-6dac-47c0-9941-847485470c30)
+    (property "Reference" "#PWR08" (at 69.85 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 69.85 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.85 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c7f89cc-abbb-4b39-8561-a6deda5a2809))
+    (instances
+      (project "esp32-s3-dev-board"
+        (path "/9c0a2796-2802-493a-b118-8c7d4a430625"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2911,7 +3029,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "C3") (unit 1)
         )
@@ -2943,9 +3061,35 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 69.85 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7616620-b83e-4d58-bf91-e5608a9a0c90)
+    (property "Reference" "R12" (at 72.39 74.295 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 72.39 76.835 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 68.072 74.93 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.85 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5886bc8a-b86a-4ae5-a780-5ae5842e7e14))
+    (pin "2" (uuid dc42cc98-6272-4bba-9881-107a05198427))
+    (instances
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2973,7 +3117,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR020") (unit 1)
         )
@@ -3009,7 +3153,7 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R3") (unit 1)
         )
@@ -3033,9 +3177,34 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 71.12 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d2de0296-2ae7-4777-b5f6-0ad198925e6a)
+    (property "Reference" "#PWR023" (at 71.12 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 71.12 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 71.12 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 71.12 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 72ca750e-38da-4713-80f8-9e80f4988267))
+    (instances
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3069,9 +3238,35 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 71.12 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2621511-9f82-4ab5-bf8e-9eaad8a2ff7f)
+    (property "Reference" "R13" (at 73.66 34.925 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 73.66 37.465 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 69.342 35.56 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15b048bd-e0ae-435b-ba64-5ab5a982689a))
+    (pin "2" (uuid 96447ee3-e325-45fb-ad51-961e3264ca57))
+    (instances
+      (project "wlan-thermo-front-panel"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3094,7 +3289,7 @@
     )
     (pin "1" (uuid 20e2506e-9c07-4ca4-a168-e7eb4110786f))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR012") (unit 1)
         )
@@ -3125,7 +3320,7 @@
           (reference "F1") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "F1") (unit 1)
         )
@@ -3151,7 +3346,7 @@
     (pin "1" (uuid 646835c3-bc39-4197-bd5e-74fde250787f))
     (pin "2" (uuid 5f6054b6-bfd5-444d-a09e-571a093634fc))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "J3") (unit 1)
         )
@@ -3176,7 +3371,7 @@
     )
     (pin "1" (uuid 2669cecd-7cf7-4738-846c-18f877452b74))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR014") (unit 1)
         )
@@ -3206,7 +3401,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR011") (unit 1)
         )
@@ -3238,7 +3433,7 @@
           (reference "Q2") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "Q2") (unit 1)
         )
@@ -3268,7 +3463,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR08") (unit 1)
         )
@@ -3293,7 +3488,7 @@
     )
     (pin "1" (uuid 5e366cf6-d70a-44ef-90c6-d9b3f3f64b08))
     (instances
-      (project "wlan-thermostat"
+      (project "wlan-thermo-front-panel"
         (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523"
           (reference "#PWR05") (unit 1)
         )
