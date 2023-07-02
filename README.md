@@ -19,4 +19,5 @@ It contains the following elements:
 
 ## Revision History:
 
-- **v1.0**: Initial version
+- **v1.0**: Initial version (Produced: 12.06.2023; First assembled: 29.06.2023)
+- **v1.1**: Fixing of strapping pins of ESP-12F
