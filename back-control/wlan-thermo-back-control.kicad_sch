@@ -1347,7 +1347,7 @@
     (property "Value" "PC817" (at 36.83 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" (at 31.75 66.04 0)
+    (property "Footprint" "Chof747 Footprints:SOP-4_6.7x4.1mm_P2.54mm" (at 31.75 66.04 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" (at 36.83 60.96 0)
