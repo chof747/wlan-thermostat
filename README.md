@@ -20,4 +20,19 @@ It contains the following elements:
 ## Revision History:
 
 - **v1.0**: Initial version (Produced: 12.06.2023; First assembled: 29.06.2023)
-- **v1.1**: Fixing of strapping pins of ESP-12F
+- **v1.1**: Fixing after component testin (Produced: 15.07.2023;)
+   1. Frontend:
+     - Fixing of strapping pins of ESP-12F
+     - Fixing of thermocoupling between ESP-12F and the temperature sensor
+     - Introduction of UMH3N chip to replace two transistors + two resistors for the auto-reset circuit
+     - Introduced resistor array to manage strapping pins
+     - Switching of pins as follows:
+         - Rotary Encoder Button now GPIO0 (doubling as a fallback mode for programming)
+         - Relay pin: GPIO13
+
+   2. Backend
+     - Fixed orientation of Relay Footprint
+     - Fixed size of footprint for optocoppler
+     - Changed pinheaders for frontend connection from smd to throughole
+     - Rearranged board placing to manage changed footprints
+   

@@ -4750,7 +4750,7 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp e0f057ab-6f31-4f30-b2cb-2a59be0194ee))
   (gr_arc (start 105.759 110.57) (mid 105.173214 111.984214) (end 103.759 112.57)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f0043b37-c555-4b09-a7ad-4aefdc19c409))
-  (gr_text "W-Lan Thermo Back Control\nv1.0 (2023)" (at 74.16 89.61 90) (layer "B.SilkS") (tstamp 347ac7a1-0659-4510-afc6-33c546031789)
+  (gr_text "W-Lan Thermo Back Control\nv1.1 (2023)" (at 74.16 89.61 90) (layer "B.SilkS") (tstamp 347ac7a1-0659-4510-afc6-33c546031789)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (dimension (type aligned) (layer "F.SilkS") (tstamp e6f804dc-3c3c-4a32-996c-7cbb093d130b)
