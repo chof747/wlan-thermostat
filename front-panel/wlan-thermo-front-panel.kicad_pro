@@ -507,7 +507,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "wlan-thermostat_v10.STEP",
+      "step": "wlan-thermostat_v11.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
