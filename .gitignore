@@ -5,7 +5,7 @@ fp-info-cache
 */jlcpcb/gerber
 */jlcpcb/assembly
 */production
-*/resources
+resources
 *.step
 _autosave*
 back-control/production/bom.csv
