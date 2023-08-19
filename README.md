@@ -5,7 +5,7 @@ This is the front panel of a wireless triggered heating which can be connected t
 power supply and a relais capeable of switching the required electrical load. The front panel is designed to be
 attached in a perpendicular way to the back part.
 
-It contains the following elements:
+### Elements:
 
 - An ESP8266-12F module containing the microcontroller, Flash
 - A SHT40 temperature and humidity sensor
@@ -20,7 +20,7 @@ It contains the following elements:
 ## Revision History:
 
 - **v1.0**: Initial version (Produced: 12.06.2023; First assembled: 29.06.2023)
-- **v1.1**: Fixing after component testin (Produced: 15.07.2023;)
+- **v1.1**: Fixing after component testin (Produced: 15.07.2023; First assembled: 31.07.2023 / Frontend)
    1. Frontend:
      - Fixing of strapping pins of ESP-12F
      - Fixing of thermocoupling between ESP-12F and the temperature sensor
@@ -35,4 +35,5 @@ It contains the following elements:
      - Fixed size of footprint for optocoppler
      - Changed pinheaders for frontend connection from smd to throughole
      - Rearranged board placing to manage changed footprints
+- **v1.2**: Alternate version without (exposed) ground panel at the back of the frontend thermo sensor
    
