@@ -35,5 +35,6 @@ attached in a perpendicular way to the back part.
      - Fixed size of footprint for optocoppler
      - Changed pinheaders for frontend connection from smd to throughole
      - Rearranged board placing to manage changed footprints
-- **v1.2**: Alternate version without (exposed) ground panel at the back of the frontend thermo sensor
-   
+- **v1.2**: Alternate version without (exposed) ground panel at the back of the 
+frontend thermo sensor
+- **v1.3**: Move the temperature sensor on an extra board and connect it with small wires to the main board   
