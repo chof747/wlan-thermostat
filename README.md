@@ -36,5 +36,5 @@ attached in a perpendicular way to the back part.
      - Changed pinheaders for frontend connection from smd to throughole
      - Rearranged board placing to manage changed footprints
 - **v1.2**: Alternate version without (exposed) ground panel at the back of the frontend thermo sensor
-- **v1.3b**: Moved the temperature sensor to a sidearm sticking out of the board
+- **v1.3b**: Moved the temperature sensor to a sidearm sticking out of the board (produced 18.09.2023)
    
