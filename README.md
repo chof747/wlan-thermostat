@@ -37,4 +37,5 @@ attached in a perpendicular way to the back part.
      - Rearranged board placing to manage changed footprints
 - **v1.2**: Alternate version without (exposed) ground panel at the back of the frontend thermo sensor
 - **v1.3b**: Moved the temperature sensor to a sidearm sticking out of the board (produced 18.09.2023)
+- **v1.2 (backend)**: Corrected pin order of transistor switching relay (Produced: 15.10.2023)
    
