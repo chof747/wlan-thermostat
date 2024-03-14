@@ -7,9 +7,6 @@ fp-info-cache
 */production
 resources
 *.step
+*.lck
+*/board2pdf.config.ini
 _autosave*
-back-control/production/bom.csv
-back-control/production/designators.csv
-back-control/production/gerber.zip
-back-control/production/netlist.ipc
-back-control/production/positions.csv
