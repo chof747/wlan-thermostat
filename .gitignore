@@ -10,3 +10,4 @@ resources
 *.lck
 */board2pdf.config.ini
 _autosave*
+**/#auto_saved_files#
