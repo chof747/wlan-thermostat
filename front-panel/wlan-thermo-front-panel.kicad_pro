@@ -636,7 +636,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "wlan-thermostat_v13.STEP",
-      "svg": "",
+      "svg": "docs/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
